@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hello
-        run: echo "Hola ${{inputs.a-quien-saludar}}
+        run: echo "Hola ${{inputs.a-quien-saludar}}"
       - name: Set time
         id: time
         run:  echo "Fecha y hora=$(date)" >> $GITHUB_OUTPUT  
