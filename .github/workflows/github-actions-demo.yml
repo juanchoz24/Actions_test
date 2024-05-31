@@ -11,7 +11,7 @@ on:
     inputs: 
       environment:
         description: 'Ambiente a desplegar'
-        type: enviroment
+        type: environment
         required: true
       
 jobs:
