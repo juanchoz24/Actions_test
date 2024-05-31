@@ -1,12 +1,13 @@
 name: 'Hello World Docker Action'
+description: 'time to say hello'
 inputs:
   who-to-greet:
-    description: 'Who to greet'
+    description: Who to greet
     required: true
-    default: 'world'
+    default: world
 output:
-  current time:
-    description: 'current time'
+  time:
+    description: current time
 runs:
   using: docker
   image: Dockerfile
