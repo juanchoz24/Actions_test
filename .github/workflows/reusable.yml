@@ -3,7 +3,7 @@ on:
   workflow_call:
     inputs:
       a-quien-saludar:
-        description: a-quien-saluda
+        description: a-quien-saludar
         type: string
         required: true
         default: world
